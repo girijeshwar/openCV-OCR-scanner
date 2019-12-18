@@ -98,7 +98,7 @@ for i in range(len(files)):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     print("STEP 3: Apply perspective transform",i)
-    text_list.append(imgg)
+    text_list.append(warped)
 
 
 # In[166]:
